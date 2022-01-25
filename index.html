@@ -1,0 +1,32 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Encriptador</h1>
+    <main id="container">
+        <section class="form box">
+            <h3>Ingrese texto(solo minúsculas, sin acentos)</h3><br>
+            <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+            <input class="btn" type="submit" value="Encriptar" id="btn-encriptar" onclick="encriptarTexto()">
+            <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar" onclick="desencriptarTexto()">
+            
+        </section>
+        <section class="msg box">
+            <h3>Texto Encriptado</h3><br>
+            <input class="text-input" type="text" id="msg">
+            <input class="btn" type="submit" value="Copiar" id="btn-copy" onclick="copyToClipBoard()">  
+            
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h3>Creado por Paulo Recce</h3>
+            
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
